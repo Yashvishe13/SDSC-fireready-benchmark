@@ -1,0 +1,2 @@
+uid,namedLocation,date,eventID,domainID,siteID,plotID,subplotID,groupID,taxonID,scientificName,taxonRank,identificationReferences,identificationQualifier,volumePercent,livePercent,deadPercent,canopyArea,meanHeight,remarks,measuredBy,recordedBy,dataQF
+"027aba14-da4f-4a7e-b20c-5b051f0d02f5","TEAK_024.basePlot.vst","2022-09-07","vst_TEAK_2022","D17","TEAK","TEAK_024","40_100","40_01","PREM","Prunus emarginata (Douglas ex Hook.) D. Dietr.","species",,,100,85,15,8.0,1.14,,"0000-0002-4224-8173","0000-0002-4224-8173",

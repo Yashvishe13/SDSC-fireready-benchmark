@@ -1,0 +1,2 @@
+uid,namedLocation,date,eventID,domainID,siteID,plotID,subplotID,groupID,taxonID,scientificName,taxonRank,identificationReferences,identificationQualifier,volumePercent,livePercent,deadPercent,canopyArea,meanHeight,remarks,measuredBy,recordedBy,dataQF
+"8f5b65a8-658e-4b89-af78-66ce7035a5c4","TEAK_025.basePlot.vst","2022-06-30","vst_TEAK_2022","D17","TEAK","TEAK_025","40_100","40_01","ARPA6","Arctostaphylos patula Greene","species",,,100,100,0,2.5,0.66,,"0000-0003-1699-6511","0000-0002-5872-682X",
