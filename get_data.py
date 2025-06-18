@@ -124,7 +124,7 @@ for site_name in site_names:
             "genus", 
             "family",
             "filename",
-            "measurementHeight",
+            "height",
             "stemDiameter",
             "baseCrownHeight",
             "easting",
@@ -173,7 +173,7 @@ for site_name in site_names:
             "genus", 
             "family",
             "filename",
-            "measurementHeight",
+            "height",
             "stemDiameter",
             "baseCrownHeight",
             "easting",
@@ -191,9 +191,9 @@ for site_name in site_names:
     print("Length of the clean dataset:", len(df_cleaned))
     # Save the cleaned data to a new CSV file
     file_name = f'NEON_{site_name}.csv'
-    df_cleaned.to_csv(file_name, index=False)
+    # df_cleaned.to_csv(file_name, index=False)
 
-    df_cleaned['measurementHeight_inches'] = df_cleaned['measurementHeight'] * 0.393701
+    df_cleaned['height_inches'] = df_cleaned['height'] * 0.393701
     df_cleaned['stemDiameter_inches'] = df_cleaned['stemDiameter'] * 0.393701
     df_cleaned['stemDistance_inches'] = df_cleaned['stemDistance'] * 39.3701
 
